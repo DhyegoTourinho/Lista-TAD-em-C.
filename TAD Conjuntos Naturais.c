@@ -629,7 +629,6 @@ int main(){
                                 printf("Nao foi possivel inserir o numero no conjunto. ;(\n");
                                 printf("deseja inserir mais um numero ao conjunto?\n|0| > Nao\n|1| > Sim\n");
                                 scanf("%d", &opcao);
-                                break;
                             }
                         } while (opcao == 1); break;
                     } else {
