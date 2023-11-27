@@ -100,7 +100,7 @@ void show(Pilha *P, int ordem) {
         return;
     }
 
-        if (ordem == 1) {
+        if (ordem == 2) {
             printf("{ ");
         for(int i = 0; i < P->topo; i++){
             printf("%ld", P->elementos[i]);
@@ -216,7 +216,7 @@ int main() {
             
             case 5:
             if (P != NULL){
-                printf("A cardinalidade da pilha é: %ld\n", size(P));
+                printf("A cardinalidade da pilha eh: %ld\n", size(P));
                 break;
             } else {
                 printf("Nao foi possivel realizar a operacao.\n");
